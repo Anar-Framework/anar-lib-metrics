@@ -8,8 +8,8 @@ add the following dependency to pom.xml
 
 ```
 		<dependency>
-			<groupId>af.gov.anar.core</groupId>
-			<artifactId>anar-core</artifactId>
+	               <groupId>af.gov.anar.lib</groupId>
+	               <artifactId>anar-lib-metrics</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 ```
@@ -25,3 +25,7 @@ management.endpoints.web.exposure.include=*
 management.endpoint.prometheus.enabled=true
 management.metrics.export.prometheus.enabled=true
 ```
+
+### Documentation 
+
+For more information refer to wiki section of this repository
