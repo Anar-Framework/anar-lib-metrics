@@ -24,6 +24,7 @@ management.endpoint.metrics.enabled=true
 management.endpoints.web.exposure.include=*
 management.endpoint.prometheus.enabled=true
 management.metrics.export.prometheus.enabled=true
+management.metrics.export.graphite.step=1s
 ```
 
 ### Documentation 
